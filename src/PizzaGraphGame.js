@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { AlertCircle, PlusCircle, Trash2, Frown, Smile } from 'lucide-react';
 import './PizzaGraphGame.css';
 
 const ingredientGraph = {
@@ -135,7 +134,7 @@ const PizzaGraphGame = () => {
 
   return (
     <div style={{ padding: '20px', maxWidth: '600px', margin: '0 auto' }}>
-      <h1>Pizza Graph Game</h1>
+      <h1><strong>Pizza Graph Game</strong></h1>
       <h3>Выбранные ингредиенты:</h3>
       <ul>
         {selectedIngredients.map((id) => {
